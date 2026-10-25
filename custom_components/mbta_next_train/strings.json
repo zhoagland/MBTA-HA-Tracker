@@ -1,0 +1,22 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "MBTA Next Train",
+        "description": "Defaults are the Orange Line from Malden Center toward Forest Hills.",
+        "data": {
+          "stop": "Stop ID",
+          "route": "Route ID",
+          "direction": "Direction",
+          "api_key": "MBTA API key (optional, raises the rate limit)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Could not reach the MBTA API, or the stop/route ID is invalid."
+    },
+    "abort": {
+      "already_configured": "This stop/route/direction is already set up."
+    }
+  }
+}

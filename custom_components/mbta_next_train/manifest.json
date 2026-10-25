@@ -1,0 +1,10 @@
+{
+  "domain": "mbta_next_train",
+  "name": "MBTA Next Train",
+  "codeowners": [],
+  "config_flow": true,
+  "documentation": "https://api-v3.mbta.com/docs/swagger/index.html",
+  "iot_class": "cloud_polling",
+  "requirements": [],
+  "version": "1.0.0"
+}
